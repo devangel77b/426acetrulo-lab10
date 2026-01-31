@@ -1,0 +1,225 @@
+﻿Abstract
+In this experiment, we analyzed 3D printing with a conductive material by creating a two-dimensional grid of resistors and measuring the electric potential throughout the network while accounting for internal breaks. A 6 by 6 resistor grid was connected to the 9 Volt battery, and voltages were measured at 9 evenly spaced sections. Then, we identified the flaws by taking out resistors in multiple arrangements, including large vertical and horizontal breaks, a vertical side break, and a central break. By analyzing and comparing the voltage distributions after and before each adjustment, we examined how internal flaws change the potential field. These results show that voltage measurements can reveal internal flaws, reinforcing the effectiveness of non-destructive probing techniques for conductive 3D-printed materials.
+Introduction
+Method/Materials: We used TinkerCad to assemble a grid of six-by-six resistors, all connected to each other. After that, we connected one side of the grid to the positive terminal of a 9 Volt battery and the other end to the negative terminal (Figure 1). After that, we connected the voltmeter and tested the voltage in nine different locations: the top right, top middle, top left, middle right, middle middle, middle left, bottom right, bottom middle, and bottom left, all evenly apart from each other. After collecting that data, we removed different chunks of resistors, one in the center (Figure 3), one going horizontally (Figure 4), one vertically (Figure 5), and one to the left (Figure 6). Using the same nine spots, we collected all of the data.                                                    Figure 1  
+                                                        
+Data  
+
+
+Vertical Break on the Side:
+0
+	0 (positive terminal)
+	0
+	—
+	3.99
+	3.99
+	7.97
+	7.97
+	7.97
+	
+
+                                                                                
+           Figure 6
+
+
+  
+
+
+
+Center Breaks:
+0
+	0 (positive terminal)
+	0
+	3.87
+	—
+	3.87
+	7.74
+	7.74
+	7.74
+	
+
+
+
+
+
+                                                      Figure 3
+  
+
+
+
+
+
+Big Horizontal Breaks:
+0
+	0 (positive terminal)
+	0
+	4.19
+	—
+	4.19
+	8.39
+	8.39
+	8.39
+	
+
+
+
+
+
+   Figure 4
+
+
+
+
+  
+
+
+
+No Breaks:
+0
+	0 (positive terminal)
+	0
+	3.83
+	3.83
+	3.83
+	7.66
+	7.66
+	7.66
+	
+
+
+
+
+
+                                                 Figure 2
+
+
+
+
+
+
+  
+
+
+
+Big Vertical Breaks:
+0
+	0 (positive terminal)
+	0
+	3.96
+	—
+	3.96
+	7.93
+	7.93
+	7.93
+	
+
+
+
+
+
+                                   Figure 5
+
+
+
+
+Results
+
+
+Configuration
+	Top left
+	Top Middle
+	Top Right
+	Middle Left 
+	Middle Middle
+	Middle Right 
+	Bottom Left 
+	Bottom Middle 
+	Bottom Right 
+	No Breaks
+	7.66
+	7.66
+	7.66
+	3.83
+	3.83
+	3.83
+	0
+	0
+	0
+	Center Break
+	7.74
+	7.74
+	7.74
+	3.87
+	—
+	3.87
+	0
+	0
+	0
+	Large Horizontal Break
+	8.39
+	8.39
+	8.39
+	4.19
+	—
+	4.19
+	0
+	0
+	0
+	Large Vertical Break
+	7.93
+	7.93
+	7.93
+	3.96
+	—
+	3.96
+	0
+	0
+	0
+	Vertical Side Break
+	7.97
+	7.97
+	7.97
+	—
+	3.99
+	3.99
+	0
+	0
+	0
+	
+
+Key:
+* High voltage (~7.7-8.4 V)
+* Medium voltage (~3.8-4.2 V)
+* Low voltage (~0 V) 
+* **Cells marked with “—” highlight sections where voltage could not be measured because resistors were taken out. 
+
+
+Overall, these results demonstrate that different flaw geometries have specific voltage patterns. Edge breaks had smaller but still apparent changes, while centrally located and larger breaks had the greatest changes relative to the intact grid. This shows that spatial voltage distributions can be used to find internal flaws in conductive materials without damage to the material. 
+
+
+
+
+Discussion
+The key takeaway of this experiment is that the center of an electric grid has the most effect on the grid as a whole and the energy distribution, while the further out you go, the less of an apparent effect there is on the distribution of electricity. In the future, we’d like the opportunity to test our virtual resistor set-up physically and determine if there are any discrepancies. We would also like to scale up this experiment to see if there is a set ratio between the percent of resistors you remove from the grid and the change that it has on the voltage drop over the grid, or if the ratio changes depending on size. 
+Sources
+
+
+Tipler, Paul A., and Gene Mosca. Tipler and Mosca, 2004. Physics for Scientists and Engineers. 5th ed. W.H. Freeman and Company., 2004
+
+
+Acknowledgements
+
+
+Aryanna Cetrulo: Collected the Data 
+
+
+Andrew Kabatsky: Write up/latex
+
+
+Sharone Krasnopolsky: Collected the Data and set up the lab
+
+
+Connor Paszkiewicz: Completed the Discussion section
+
+
+Sameera Patil & Kriti Malhotra: Completed the Abstract and Results section
